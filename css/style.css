@@ -1810,3 +1810,9 @@ footer .credits {
 .color-bienes-raices {f
   color: #8B665F; /* o el color deseado para BIENES RAICES */
 }
+
+@media (max-width: 767px) {
+  .title-single-box h1.title-single {
+    font-size: 20px; /* Cambia el tamaño del título a 20px en dispositivos móviles */
+  }
+}
